@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/time-reporting.jar clojure.main -m time-reporting.server

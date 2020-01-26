@@ -1,0 +1,34 @@
+version: '3.7'
+services:
+  backend:
+    build: backend/.
+    volumes:
+        - ./backend:/home/app
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    links:
+      - db:db
+  db:
+    image: postgres:12
+    environment:
+        - POSTGRES_PASSWORD:'time'
+    volumes:
+        - ./db/schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+        - ./db/data.sql:/docker-entrypoint-initdb.d/2-data.sql
+    ports:
+        - "5432:5432"
+    expose:
+        - "5432"
+  frontend:
+    build: frontend/.
+    links: backend:backend
+    volumes:
+        - type: bind
+          source: ./frontend
+          target: /home/app
+    ports:
+      - "3449:3449"
+    expose:
+      - "3449"

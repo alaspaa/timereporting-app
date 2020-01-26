@@ -1,0 +1,1435 @@
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:8  column:9  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Time[0m
+
+  [36m 6[0m  [36m(defn time-page[][0m
+  [36m 7[0m  [36m  [:div[0m
+  [33m 8[0m  [1m   [:h2 Time reports][0m
+  [0m  [0m  [33m        ^--- Use of undeclared Var time-reporting.time.time/Time[0m
+  [36m 9[0m  [36m   [:table[0m
+  [36m10[0m  [36m    [:tr[0m
+  [36m11[0m  [36m     [:th "header 1"][0m
+  [36m12[0m  [36m     [:th "header 1"][0m
+  [36m13[0m  [36m     [:th "header 1"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:8  column:14  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/reports[0m
+
+  [36m 6[0m  [36m(defn time-page[][0m
+  [36m 7[0m  [36m  [:div[0m
+  [33m 8[0m  [1m   [:h2 Time reports][0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var time-reporting.time.time/reports[0m
+  [36m 9[0m  [36m   [:table[0m
+  [36m10[0m  [36m    [:tr[0m
+  [36m11[0m  [36m     [:th "header 1"][0m
+  [36m12[0m  [36m     [:th "header 1"][0m
+  [36m13[0m  [36m     [:th "header 1"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.79 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.643 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.719 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.713 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:12  column:55  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/weekday[0m
+
+  [36m 8[0m  [36m  [:tr[0m
+  [36m 9[0m  [36m   (for [day week] [:th day])])[0m
+  [36m10[0m  [36m(def input-row[0m
+  [36m11[0m  [36m  [:tr[0m
+  [33m12[0m  [1m   [:td [:input {:type "text" :placeholder "0" :class weekday}]]])[0m
+  [0m  [0m  [33m                                                      ^--- Use of undeclared Var time-reporting.time.time/weekday[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn time-page[][0m
+  [36m15[0m  [36m  [:div[0m
+  [36m16[0m  [36m   [:h2 "Time reports"][0m
+  [36m17[0m  [36m   [:table[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.727 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:12  column:55  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/weekday[0m
+
+  [36m 8[0m  [36m  [:tr[0m
+  [36m 9[0m  [36m   (for [day week] [:th day])])[0m
+  [36m10[0m  [36m(def input-row[0m
+  [36m11[0m  [36m  [:tr[0m
+  [33m12[0m  [1m   [:td [:input {:type "text" :placeholder "0" :class weekday}]]])[0m
+  [0m  [0m  [33m                                                      ^--- Use of undeclared Var time-reporting.time.time/weekday[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn time-page[][0m
+  [36m15[0m  [36m  [:div[0m
+  [36m16[0m  [36m   [:h2 "Time reports"][0m
+  [36m17[0m  [36m   [:table[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.601 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.693 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.743 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.69 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.728 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.671 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.595 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.606 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.721 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.742 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.569 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.615 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.567 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:9  column:3  ----[0m
+
+  [1mWrong number of args (3) passed to cljs.core/set[0m
+
+  [36m 5[0m  [36m  (atom {[0m
+  [36m 6[0m  [36m         :total 95}))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn set-total [e][0m
+  [33m 9[0m  [1m  (set atom :total 8))[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (3) passed to cljs.core/set[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(def week[0m
+  [36m12[0m  [36m  ["Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday"])[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.647 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:9  column:3  ----[0m
+
+  [1mWrong number of args (3) passed to cljs.core/reset![0m
+
+  [36m 5[0m  [36m  (atom {[0m
+  [36m 6[0m  [36m         :total 95}))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn set-total [e][0m
+  [33m 9[0m  [1m  (reset! @state :total 8))[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (3) passed to cljs.core/reset![0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(def week[0m
+  [36m12[0m  [36m  ["Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday"])[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.699 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.705 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:9  column:3  ----[0m
+
+  [1mWrong number of args (4) passed to cljs.core/reset![0m
+
+  [36m 5[0m  [36m  (atom {[0m
+  [36m 6[0m  [36m         :total 95}))[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(defn set-total [e][0m
+  [33m 9[0m  [1m  (reset! @state set :total 8))[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (4) passed to cljs.core/reset![0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(def week[0m
+  [36m12[0m  [36m  ["Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday"])[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.752 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.597 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:92  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (set-total)}]])])[0m
+  [0m  [0m  [33m                                                                                           ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:92  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (set-total)}]])])[0m
+  [0m  [0m  [33m                                                                                           ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.765 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.6 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:99  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (fn [] (set-total))}]])])[0m
+  [0m  [0m  [33m                                                                                                  ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:99  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (fn [] (set-total))}]])])[0m
+  [0m  [0m  [33m                                                                                                  ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:102  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (fn [evt] (set-total))}]])])[0m
+  [0m  [0m  [33m                                                                                                     ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:20  column:102  ----[0m
+
+  [1mWrong number of args (0) passed to time-reporting.time.time/set-total[0m
+
+  [36m16[0m  [36m   (for [day week] [:th day])])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(def input-row[0m
+  [36m19[0m  [36m  [:tr[0m
+  [33m20[0m  [1m   (for [day week] [:td [:input {:type "text" :placeholder "0" :class "weekday" :on-change (fn [evt] (set-total))}]])])[0m
+  [0m  [0m  [33m                                                                                                     ^--- Wrong number of args (0) passed to time-reporting.time.time/set-total[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(def total-row[0m
+  [36m23[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value (fn [evt] (get @state :total))}]]])[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.631 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.58 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.605 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.413 seconds.[0m
+[36m----  Could not Read  src/cljs/time_reporting/time/time.cljs   line:17 ----[0m
+
+  [1m/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 55] Unmatched delimiter }.[0m
+
+  [36m15[0m  [36m(def header-row[0m
+  [36m16[0m  [36m  [:tr[0m
+  [33m17[0m  [1m   (for [day week] [:th day {^{:key day :class "day"}}])])[0m
+  [0m  [0m  [33m   /Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 55] Unmatched delimiter }.[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(def input-row[0m
+  [36m20[0m  [36m  [:tr[0m
+
+[36m----  Reader Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.324 seconds.[0m
+[36m----  Could not Read  src/cljs/time_reporting/time/time.cljs   line:17 ----[0m
+
+  [1m/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 53] The map literal starting with day on line 17 column 29 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m15[0m  [36m(def header-row[0m
+  [36m16[0m  [36m  [:tr[0m
+  [33m17[0m  [1m   (for [day week] [:th day {^:key day :class "day"}])])[0m
+  [0m  [0m  [33m   /Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 53] The map literal starting with day on line 17 column 29 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(def input-row[0m
+  [36m20[0m  [36m  [:tr[0m
+
+[36m----  Reader Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.643 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.351 seconds.[0m
+[36m----  Could not Read  src/cljs/time_reporting/time/time.cljs   line:17 ----[0m
+
+  [1m/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 49] The map literal starting with day on line 17 column 25 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m15[0m  [36m(def header-row[0m
+  [36m16[0m  [36m  [:tr[0m
+  [33m17[0m  [1m   (for [day week] [:th {^:key day :class "day"} day])])[0m
+  [0m  [0m  [33m   /Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs [line 17, col 49] The map literal starting with day on line 17 column 25 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(def input-row[0m
+  [36m20[0m  [36m  [:tr[0m
+
+[36m----  Reader Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.66 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.736 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.601 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.745 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.604 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.614 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.64 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.628 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.587 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.322 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.312 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.346 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.318 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.32 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.316 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.32 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.32 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.576 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.572 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.319 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.334 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.32 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.575 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.569 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.58 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.565 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.61 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.346 seconds.[0m
+[36m----  Could not Analyze  src/cljs/time_reporting/time/time.cljs   line:29  column:4  ----[0m
+
+  [1mWrong number of args (1) passed to: cljs.core/for[0m
+
+  [36m27[0m  [36m(def header-row[0m
+  [36m28[0m  [36m  [:tr[0m
+  [33m29[0m  [1m   (for [day (key @cursor-input [:th {:key day :class "day"} day])])])[0m
+  [0m  [0m  [33m   ^--- Wrong number of args (1) passed to: cljs.core/for[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(def input-row[0m
+  [36m32[0m  [36m  [:tr[0m
+
+[36m----  Analysis Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.322 seconds.[0m
+[36m----  Could not Analyze  src/cljs/time_reporting/time/time.cljs   line:29  column:4  ----[0m
+
+  [1mWrong number of args (1) passed to: cljs.core/for[0m
+
+  [36m27[0m  [36m(def header-row[0m
+  [36m28[0m  [36m  [:tr[0m
+  [33m29[0m  [1m   (for [day (:key @cursor-input [:th {:key day :class "day"} day])])])[0m
+  [0m  [0m  [33m   ^--- Wrong number of args (1) passed to: cljs.core/for[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(def input-row[0m
+  [36m32[0m  [36m  [:tr[0m
+
+[36m----  Analysis Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.635 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.609 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.606 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:22  column:17  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/value[0m
+
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [][0m
+  [36m21[0m  [36m  (println @cursor-input)[0m
+  [33m22[0m  [1m  (map println (value @cursor-input))[0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var time-reporting.time.time/value[0m
+  [36m23[0m  [36m  (swap! state assoc :total 8))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(def header-row[0m
+  [36m26[0m  [36m  [:tr[0m
+  [36m27[0m  [36m   (for [day @cursor-input] [:th {:key day :class "day"} (key day)])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.665 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.576 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.625 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.61 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:13  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/value[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [][0m
+  [33m21[0m  [1m  (println (value @cursor-input))[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var time-reporting.time.time/value[0m
+  [36m22[0m  [36m  (map (fn [val] (println (str "qwe" val)) @cursor-input))[0m
+  [36m23[0m  [36m  (swap! state assoc :total 8))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(def header-row[0m
+  [36m26[0m  [36m  [:tr[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.658 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.602 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.63 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.631 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:13  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/sum[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [][0m
+  [33m21[0m  [1m  (println (sum (vals @cursor-input)))[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var time-reporting.time.time/sum[0m
+  [36m22[0m  [36m  ;(map (fn [val] sum  (vals @cursor-input)))[0m
+  [36m23[0m  [36m  (swap! state assoc :total 8))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(def header-row[0m
+  [36m26[0m  [36m  [:tr[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.645 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.576 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.64 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.579 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.614 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.62 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.608 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.579 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.347 seconds.[0m
+[36m----  Could not Analyze  src/cljs/time_reporting/time/time.cljs   line:30  column:6  ----[0m
+
+  [1mWrong number of args (3) passed to: cljs.core/for[0m
+
+  [36m28[0m  [36m(def header-row[0m
+  [36m29[0m  [36m  [:tr[0m
+  [33m30[0m  [1m     (for [day @cursor-input] _^{:key day}[:th {:class "day"} (key day)])])[0m
+  [0m  [0m  [33m     ^--- Wrong number of args (3) passed to: cljs.core/for[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(def input-row[0m
+  [36m33[0m  [36m  [:tr[0m
+
+[36m----  Analysis Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.61 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.599 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.58 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.616 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.63 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.608 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:22  column:4  ----[0m
+
+  [1mWrong number of args (0) passed to cljs.core/swap![0m
+
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [][0m
+  [36m21[0m  [36m  (println @cursor-input)[0m
+  [33m22[0m  [1m  #(swap!)[0m
+  [0m  [0m  [33m   ^--- Wrong number of args (0) passed to cljs.core/swap![0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m  ;(map (fn [val] sum  (vals @cursor-input)))[0m
+  [36m26[0m  [36m  (swap! state assoc :total 8))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.657 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.437 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.309 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:4  ----[0m
+
+  [1mWrong number of args (0) passed to cljs.core/swap![0m
+
+  [36m20[0m  [36m()[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn set-total [][0m
+  [36m23[0m  [36m  (println @cursor-input)[0m
+  [33m24[0m  [1m  #(swap!)[0m
+  [0m  [0m  [33m   ^--- Wrong number of args (0) passed to cljs.core/swap![0m
+  [36m25[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  ;(map (fn [val] sum  (vals @cursor-input)))[0m
+  [36m28[0m  [36m  (swap! state assoc :total 8))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.735 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.565 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.594 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.593 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.585 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.326 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.57 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.599 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.572 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:13  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/day[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [33m21[0m  [1m  (let [evt day][0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var time-reporting.time.time/day[0m
+  [36m22[0m  [36m    (println evt)[0m
+  [36m23[0m  [36m    (println day))[0m
+  [36m24[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m25[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m26[0m  [36m  (swap! state assoc :total 8)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:23  column:14  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/day[0m
+
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [36m21[0m  [36m  (let [evt day][0m
+  [36m22[0m  [36m    (println evt)[0m
+  [33m23[0m  [1m    (println day))[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var time-reporting.time.time/day[0m
+  [36m24[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m25[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m26[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m27[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.637 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.32 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.324 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.58 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.6 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.598 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:135  ----[0m
+
+  [1mWrong number of args (1) passed to time-reporting.time.time/set-total[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                      ^--- Wrong number of args (1) passed to time-reporting.time.time/set-total[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:135  ----[0m
+
+  [1mWrong number of args (1) passed to time-reporting.time.time/set-total[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                      ^--- Wrong number of args (1) passed to time-reporting.time.time/set-total[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.636 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:135  ----[0m
+
+  [1mWrong number of args (1) passed to time-reporting.time.time/set-total[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                      ^--- Wrong number of args (1) passed to time-reporting.time.time/set-total[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:135  ----[0m
+
+  [1mWrong number of args (1) passed to time-reporting.time.time/set-total[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                      ^--- Wrong number of args (1) passed to time-reporting.time.time/set-total[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.614 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.572 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.587 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.33 seconds.[0m
+[36m----  Could not Compile  src/cljs/time_reporting/time/time.cljs  ----[0m
+
+  [1mfailed compiling file:/Users/patrickalaspaa/Projects/Time/time-reporting/src/cljs/time_reporting/time/time.cljs[0m
+
+[36m----  Compiler Error : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.589 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.59 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.596 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.613 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.579 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:14  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/x[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [33m21[0m  [1m  (let [args x][0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var time-reporting.time.time/x[0m
+  [36m22[0m  [36m    (println "sdfg")[0m
+  [36m23[0m  [36m    (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m    (swap! cursor-input assoc x 85)[0m
+  [36m25[0m  [36m    (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m    (println @state)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:31  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/x[0m
+
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [36m21[0m  [36m  (let [args x][0m
+  [36m22[0m  [36m    (println "sdfg")[0m
+  [36m23[0m  [36m    (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m    (swap! cursor-input assoc x 85)[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var time-reporting.time.time/x[0m
+  [36m25[0m  [36m    (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m    (println @state)))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def header-row[0m
+  [36m29[0m  [36m  [:tr[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.664 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:14  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/x[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [33m21[0m  [1m  (let [args x][0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var time-reporting.time.time/x[0m
+  [36m22[0m  [36m    (println (size args))[0m
+  [36m23[0m  [36m    (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m    (swap! cursor-input assoc x 85)[0m
+  [36m25[0m  [36m    (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m    (println @state)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:22  column:15  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/size[0m
+
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [36m21[0m  [36m  (let [args x][0m
+  [33m22[0m  [1m    (println (size args))[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var time-reporting.time.time/size[0m
+  [36m23[0m  [36m    (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m    (swap! cursor-input assoc x 85)[0m
+  [36m25[0m  [36m    (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m    (println @state)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:31  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/x[0m
+
+  [36m20[0m  [36m(defn set-total [& args][0m
+  [36m21[0m  [36m  (let [args x][0m
+  [36m22[0m  [36m    (println (size args))[0m
+  [36m23[0m  [36m    (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m    (swap! cursor-input assoc x 85)[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var time-reporting.time.time/x[0m
+  [36m25[0m  [36m    (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m    (println @state)))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(def header-row[0m
+  [36m29[0m  [36m  [:tr[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.655 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:22  column:13  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/size[0m
+
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [key][0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m  (println (size args))[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var time-reporting.time.time/size[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m25[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:22  column:18  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/args[0m
+
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [key][0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m  (println (size args))[0m
+  [0m  [0m  [33m                 ^--- Use of undeclared Var time-reporting.time.time/args[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m24[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m25[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m26[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.663 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:13  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/size[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [key][0m
+  [33m21[0m  [1m  (println (size args))[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var time-reporting.time.time/size[0m
+  [36m22[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m23[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m24[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m25[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:18  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/args[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [key][0m
+  [33m21[0m  [1m  (println (size args))[0m
+  [0m  [0m  [33m                 ^--- Use of undeclared Var time-reporting.time.time/args[0m
+  [36m22[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m23[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m24[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m25[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.643 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.565 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:146  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/evt[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total evt (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                                 ^--- Use of undeclared Var time-reporting.time.time/evt[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:32  column:146  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/evt[0m
+
+  [36m28[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m29[0m  [36m[0m
+  [36m30[0m  [36m(def input-row[0m
+  [36m31[0m  [36m  [:tr[0m
+  [33m32[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :on-change (set-total evt (key day))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                                 ^--- Use of undeclared Var time-reporting.time.time/evt[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(def total-row[0m
+  [36m35[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.636 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.592 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.618 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.644 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:16  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/%[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [33m21[0m  [1m  (println (-> % .-target .-value))[0m
+  [0m  [0m  [33m               ^--- Use of undeclared Var time-reporting.time.time/%[0m
+  [36m22[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m23[0m  [36m  (swap! cursor-input assoc key 85)[0m
+  [36m24[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m25[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.639 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:21  column:3  ----[0m
+
+  [1mval already refers to: cljs.core/val being replaced by: time-reporting.time.time/val[0m
+
+  [36m17[0m  [36m(def cursor-input[0m
+  [36m18[0m  [36m  (cursor state [:week]))[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [33m21[0m  [1m  (def val (-> evt .-target .-value))[0m
+  [0m  [0m  [33m  ^--- val already refers to: cljs.core/val being replaced by: time-reporting.time.time/val[0m
+  [36m22[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [36m23[0m  [36m  (swap! cursor-input assoc key val)[0m
+  [36m24[0m  [36m  (swap! state assoc :total 8)[0m
+  [36m25[0m  [36m  (println @state))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.626 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.582 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.589 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.6 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.601 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.608 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:17  ----[0m
+
+  [1mNo such namespace: Integer, could not locate Integer.cljs, Integer.cljc, or JavaScript source providing "Integer"[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (map Integer/parseInt (vals @cursor-input)))[0m
+  [0m  [0m  [33m                ^--- No such namespace: Integer, could not locate Integer.cljs, Integer.cljc, or JavaScript source providing "Integer"[0m
+  [36m25[0m  [36m  (println @state))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(def header-row[0m
+  [36m28[0m  [36m  [:tr[0m
+  [36m29[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:17  ----[0m
+
+  [1mUse of undeclared Var Integer/parseInt[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (map Integer/parseInt (vals @cursor-input)))[0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var Integer/parseInt[0m
+  [36m25[0m  [36m  (println @state))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(def header-row[0m
+  [36m28[0m  [36m  [:tr[0m
+  [36m29[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.795 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.716 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.702 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.605 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:33  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Integer[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (reduce (fn [x y] (+ (Integer. x) (Integer. y))) [1 "2" "3" 4]))[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var time-reporting.time.time/Integer[0m
+  [36m25[0m  [36m  ;(println (map Integer. (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  (println @state))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:33  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Integer[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (reduce (fn [x y] (+ (Integer. x) (Integer. y))) [1 "2" "3" 4]))[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var time-reporting.time.time/Integer[0m
+  [36m25[0m  [36m  ;(println (map Integer. (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  (println @state))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:46  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Integer[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (reduce (fn [x y] (+ (Integer. x) (Integer. y))) [1 "2" "3" 4]))[0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var time-reporting.time.time/Integer[0m
+  [36m25[0m  [36m  ;(println (map Integer. (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  (println @state))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:46  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Integer[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (reduce (fn [x y] (+ (Integer. x) (Integer. y))) [1 "2" "3" 4]))[0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var time-reporting.time.time/Integer[0m
+  [36m25[0m  [36m  ;(println (map Integer. (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  (println @state))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:24  column:30  ----[0m
+
+  [1mcljs.core/+, all arguments must be numbers, got [time-reporting.time.time/Integer time-reporting.time.time/Integer] instead[0m
+
+  [36m20[0m  [36m(defn set-total [evt key][0m
+  [36m21[0m  [36m  (def input-val (-> evt .-target .-value))[0m
+  [36m22[0m  [36m  (swap! cursor-input assoc key input-val)[0m
+  [36m23[0m  [36m  (reset! cursor-total (reduce + (vals @cursor-input)))[0m
+  [33m24[0m  [1m  (println (reduce (fn [x y] (+ (Integer. x) (Integer. y))) [1 "2" "3" 4]))[0m
+  [0m  [0m  [33m                             ^--- cljs.core/+, all arguments must be numbers, got [time-reporting.time.time/Integer time-reporting.time.time/Integer] instead[0m
+  [36m25[0m  [36m  ;(println (map Integer. (vals @cursor-input)))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m  (println @state))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(def header-row[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.712 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.707 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.612 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.595 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.582 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.773 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.582 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.621 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.628 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.586 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:7  column:17  ----[0m
+
+  [1mUse of undeclared Var time-reporting.time.time/Monday[0m
+
+  [36m 4[0m  [36m(def state[0m
+  [36m 5[0m  [36m  (atom {[0m
+  [36m 6[0m  [36m         :total 95[0m
+  [33m 7[0m  [1m         :week {Monday 1[0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var time-reporting.time.time/Monday[0m
+  [36m 8[0m  [36m                 "Tuesday" 2[0m
+  [36m 9[0m  [36m                 "Wednesday" 3[0m
+  [36m10[0m  [36m                 "Thursday" 4[0m
+  [36m11[0m  [36m                 "Friday" 5[0m
+  [36m12[0m  [36m                 "Saturday" 6[0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.651 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:37  column:131  ----[0m
+
+  [1mWrong number of args (4) passed to cljs.core/get[0m
+
+  [36m33[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(def input-row[0m
+  [36m36[0m  [36m  [:tr[0m
+  [33m37[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :value (get @cursor-input (str day) :on-change (fn [evt] (set-input evt (key day))))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                  ^--- Wrong number of args (4) passed to cljs.core/get[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def total-row[0m
+  [36m40[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/time_reporting/time/time.cljs   line:37  column:131  ----[0m
+
+  [1mWrong number of args (4) passed to cljs.core/get[0m
+
+  [36m33[0m  [36m     (for [day @cursor-input] ^{:key (key day)}[:th {:class "day"} (key day)])])[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(def input-row[0m
+  [36m36[0m  [36m  [:tr[0m
+  [33m37[0m  [1m   (doall (for [day @cursor-input] ^{:key (str (val day) 1)}[:td [:input {:type "number" :placeholder "0" :class "weekday" :value (get @cursor-input (str day) :on-change (fn [evt] (set-input evt (key day))))}]]))])[0m
+  [0m  [0m  [33m                                                                                                                                  ^--- Wrong number of args (4) passed to cljs.core/get[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def total-row[0m
+  [36m40[0m  [36m  [:tr [:td][:td][:td][:th "Total"][:td [:input {:type "text" :placeholder "0" :class "total" :disabled "disabled" :value @cursor-total}]]])[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m(defn time-page[][0m
+
+[36m----  Compiler Warning : Please see src/cljs/time_reporting/time/time.cljs  ----[0m
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.725 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.577 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 0.594 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/time_reporting/time/time.js

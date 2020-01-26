@@ -1,0 +1,9 @@
+postgre:
+  image: postgres:12
+  environment:
+      - POSTGRES_PASSWORD:'time'
+  volumes:
+      - ./schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+      - ./data.sql:/docker-entrypoint-initdb.d/2-data.sql
+  ports:
+      - "5432:5432"

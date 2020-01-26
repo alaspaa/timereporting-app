@@ -1,0 +1,13 @@
+
+version: "3.7"
+services:
+  frontend:
+    build: DockerStuff/.
+    volumes:
+        - type: bind
+          source: ./app
+          target: /home/app
+    ports:
+      - "3449:3449"
+    expose:
+      - "3449"
